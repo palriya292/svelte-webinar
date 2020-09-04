@@ -1,0 +1,135 @@
+
+
+div, h1, h2, h3, h4, h5, h6, p, span{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.profile{
+    border-radius: 50%;
+    border: 6px solid #FF3C00 !important;
+    height: 300px !important;
+    width: 300px !important;
+}
+
+.logo1{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.logo-top{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+}
+
+.all-logo{
+    height: 200px;
+    width: 200px;
+    grid-area: logo;
+}
+
+.all-grid-down{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.all-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    position: relative;
+    right: 150px;
+}
+
+.up-logo{
+    padding-right: 350px;
+}
+
+.down-logo{
+    padding-right: 370px;
+}
+
+.first-page{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 80px;
+}
+
+.para1{
+    /*position: relative;
+    right: 120px;*/
+    font-size: 26px;
+    text-align: left;
+}
+
+.para2{
+    font-size: 26px;
+    /*position: relative;
+    right: 75px;*/
+    text-align: left;
+}
+
+span{
+    /*position: relative;
+    left: 38px;*/
+    text-align: left;
+    font-size: 35px;
+}
+
+.para3{
+    /*position: relative;
+    left: 22px;*/
+    text-align: left;
+}
+
+.background{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png");
+    background-size: contain;
+}
+
+.correct-tech{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.question-mark{
+    height: 200px;
+    width: 200px;
+}
+
+li{
+    padding: 15px;
+}
+
+.names-logo{
+    text-align: left;
+    position: relative;
+    bottom: 50px;
+}
+
+.make-it-pop {
+    filter: drop-shadow(0 0 4px rgb(201, 162, 91));
+  }
+
+  .make-it-pop1 {
+    filter: drop-shadow(0 0 10px rgb(128, 105, 0));
+  }
+
+  .make-it-pop2 {
+    filter: drop-shadow(0 0 3px rgb(127, 231, 205));
+  }
+
+  .make-it-pop3{
+    filter: drop-shadow(0 0 5px rgb(0, 4, 255));
+  }
+
+  .make-it-pop4{
+    filter: drop-shadow(0 0 7px #e6bbae);
+  }
+
+  .outro, .outro > span{
+    font-family: 'Comic Sans MS', arial !important;
+      color: #E8A12D;
+  }
